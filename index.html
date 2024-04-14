@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Registration System</h1>
+        <p>Welcome to our student registration system. Register your details below.</p>
+    </header>
+    <main>
+        <section class="registration-form">
+            <h2>Registration Form</h2>
+            <form id="student-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="student-id">Student ID:</label>
+                    <input type="text" id="student-id" name="student-id" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel" id="contact" name="contact" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section class="student-list">
+            <h2>Registered Students</h2>
+            <ul id="student-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Student Registration System</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
